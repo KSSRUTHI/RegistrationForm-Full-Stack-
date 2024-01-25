@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(black,black);
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 30px;
+    color:antiquewhite;
+    text-align: center;
+    box-shadow:7px 7px 7px 7px skyblue;
+    background-color: black;
+
+}
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+    color: black;
+}
+form h2{
+    color: antiquewhite;
+}
+input{
+    width:100%;
+    font-size: 20px;
+    padding:12px 10px;
+    color:black;
+    margin:8px;
+    border:none;
+    border-bottom:2px solid aquamarine ;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    color:black;
+    padding:16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: aqua;
+}
